@@ -5,11 +5,11 @@
 # except for the first letter in each offensive word.
 # Print the resulting text.
 
-def main():
-    text = input("Enter a line of text: ")
-    text = text.lower()
-    text = text.replace("arse", "a***")
-    text = text.replace("bloody", "b*****")
-    text = text.replace("damn", "d***")
-    text = text.replace("dummy", "d****")
-    print(text)
+
+text = input("Enter a line of text: ")
+text = text.lower()
+text = text.replace("arse", "a***")
+text = text.replace("bloody", "b*****")
+text = text.replace("damn", "d***")
+text = text.replace("dummy", "d****")
+print(text)
